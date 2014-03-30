@@ -1,0 +1,21 @@
+use ?
+begin
+select c from sbtest? where id=?
+select c from sbtest? where id=?
+select c from sbtest? where id=?
+select c from sbtest? where id=?
+select c from sbtest? where id=?
+select c from sbtest? where id=?
+select c from sbtest? where id=?
+select c from sbtest? where id=?
+select c from sbtest? where id=?
+select c from sbtest? where id=?
+select c from sbtest? where id between ? and ?
+select sum(k) from sbtest? where id between ? and ?
+select c from sbtest? where id between ? and ? order by c
+select distinct c from sbtest? where id between ? and ? order by c
+update sbtest? set k=k? where id=?
+update sbtest? set c=? where id=?
+delete from sbtest? where id=?
+insert into sbtest? (id, k, c, pad) values(?+)
+commit

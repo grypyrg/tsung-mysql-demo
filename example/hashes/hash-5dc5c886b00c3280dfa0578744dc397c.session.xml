@@ -1,0 +1,71 @@
+<session probability="100" name="hash-5dc5c886b00c3280dfa0578744dc397c" type="ts_mysql">
+	<request><mysql type="connect" /></request>
+	<request><mysql type="authenticate" database="test" username="test" password="" /></request>
+	<setdynvars sourcetype="file" fileid="hash5dc5c886b00c3280dfa0578744dc397c" delimiter=";" order="random">
+		<var name="val1" />
+		<var name="val2" />
+		<var name="val3" />
+		<var name="val4" />
+		<var name="val5" />
+		<var name="val6" />
+		<var name="val7" />
+		<var name="val8" />
+		<var name="val9" />
+		<var name="val10" />
+		<var name="val11" />
+		<var name="val12" />
+		<var name="val13" />
+		<var name="val14" />
+		<var name="val15" />
+		<var name="val16" />
+		<var name="val17" />
+		<var name="val18" />
+		<var name="val19" />
+		<var name="val20" />
+		<var name="val21" />
+		<var name="val22" />
+		<var name="val23" />
+		<var name="val24" />
+		<var name="val25" />
+		<var name="val26" />
+		<var name="val27" />
+		<var name="val28" />
+		<var name="val29" />
+		<var name="val30" />
+		<var name="val31" />
+		<var name="val32" />
+		<var name="val33" />
+		<var name="val34" />
+		<var name="val35" />
+		<var name="val36" />
+		<var name="val37" />
+		<var name="val38" />
+		<var name="val39" />
+		<var name="val40" />
+		<var name="val41" />
+		<var name="val42" />
+		<var name="val43" />
+	</setdynvars>
+	<request subst="true"><mysql type="sql">use %%_val1%%;</mysql></request>
+	<request subst="true"><mysql type="sql">begin;</mysql></request>
+	<request subst="true"><mysql type="sql">select c from sbtest%%_val2%% where id=%%_val3%%;</mysql></request>
+	<request subst="true"><mysql type="sql">select c from sbtest%%_val4%% where id=%%_val5%%;</mysql></request>
+	<request subst="true"><mysql type="sql">select c from sbtest%%_val6%% where id=%%_val7%%;</mysql></request>
+	<request subst="true"><mysql type="sql">select c from sbtest%%_val8%% where id=%%_val9%%;</mysql></request>
+	<request subst="true"><mysql type="sql">select c from sbtest%%_val10%% where id=%%_val11%%;</mysql></request>
+	<request subst="true"><mysql type="sql">select c from sbtest%%_val12%% where id=%%_val13%%;</mysql></request>
+	<request subst="true"><mysql type="sql">select c from sbtest%%_val14%% where id=%%_val15%%;</mysql></request>
+	<request subst="true"><mysql type="sql">select c from sbtest%%_val16%% where id=%%_val17%%;</mysql></request>
+	<request subst="true"><mysql type="sql">select c from sbtest%%_val18%% where id=%%_val19%%;</mysql></request>
+	<request subst="true"><mysql type="sql">select c from sbtest%%_val20%% where id=%%_val21%%;</mysql></request>
+	<request subst="true"><mysql type="sql">select c from sbtest%%_val22%% where id between %%_val23%% and %%_val24%%;</mysql></request>
+	<request subst="true"><mysql type="sql">select sum(k) from sbtest%%_val25%% where id between %%_val26%% and %%_val27%%;</mysql></request>
+	<request subst="true"><mysql type="sql">select c from sbtest%%_val28%% where id between %%_val29%% and %%_val30%% order by c;</mysql></request>
+	<request subst="true"><mysql type="sql">select distinct c from sbtest%%_val31%% where id between %%_val32%% and %%_val33%% order by c;</mysql></request>
+	<request subst="true"><mysql type="sql">update sbtest%%_val34%% set k=k%%_val35%% where id=%%_val36%%;</mysql></request>
+	<request subst="true"><mysql type="sql">update sbtest%%_val37%% set c=%%_val38%% where id=%%_val39%%;</mysql></request>
+	<request subst="true"><mysql type="sql">delete from sbtest%%_val40%% where id=%%_val41%%;</mysql></request>
+	<request subst="true"><mysql type="sql">insert into sbtest%%_val42%% (id, k, c, pad) values(%%_val43%%);</mysql></request>
+	<request subst="true"><mysql type="sql">commit;</mysql></request>
+	<request><mysql type="close" /></request>
+</session>
